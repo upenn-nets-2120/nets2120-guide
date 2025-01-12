@@ -1,4 +1,4 @@
-## Using Git for Version Control
+# Using Git for Version Control
 
 If you choose Visual Studio Code as your code editor, you will see a Source Control tab on the left sidebar, which is a GUI for Git operations. We still recommend you learn how to use Git commands in command line environments.
 

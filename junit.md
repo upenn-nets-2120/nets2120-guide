@@ -1,6 +1,4 @@
-# NETS 2120 Guides
-
-## About JUnit
+# JUnit
 
 JUnit is a popular testing framework in Java. A **unit test** typically aims to test a small "unit" of your code in
 isolation from the rest of the program. This helps ensure that each part of your code works correctly as intended. In

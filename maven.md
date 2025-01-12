@@ -1,4 +1,4 @@
-# NETS 2120 Guides
+# Apache Maven
 
 Apache Maven is a project management and build tool for Java developers.  It handles several tasks including:
 
