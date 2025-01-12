@@ -23,9 +23,6 @@ Each of the above calls can take one additional parameter at the start --- a str
 If any of these assertions fail, the unit test fails. When you run `mvn test`, any failed unit tests will show up and
 the exact assertion that failed will also be identified.
 
-If you are looking for a more comprehensive guide, we recommend you check out
-the [CIS 1210 JUnit 4 Testing Guide](https://www.cis.upenn.edu/~cis1210/current/testing_guide.html).
-
 ### ApiTestUtils Test Harness and Helper Functions
 
 To make unit tests easier for REST services, we have provided a utility "test harness" library for you.  See [test/.../ApiTestUtils.java](test/edu/upenn/cis/nets2120/ApiTestUtils.java).
