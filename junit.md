@@ -28,10 +28,10 @@ the [CIS 1210 JUnit 4 Testing Guide](https://www.cis.upenn.edu/~cis1210/current/
 
 ### ApiTestUtils Test Harness and Helper Functions
 
-To make unit tests easier for REST services, we have provided a utility "test harness" library for you.  See [test/.../ApiTestUtils.java](src/test/java/edu/upenn/cis/nets2120/util/ApiTestUtils.java).
+To make unit tests easier for REST services, we have provided a utility "test harness" library for you.  See [test/.../ApiTestUtils.java](test/edu/upenn/cis/nets2120/ApiTestUtils.java).
 
 You can assemble `GET` requests by calling the `get()` method, also supplying a path and an HTTP port.  Some of the different methods will even take a map of key/value pairs for queries in the GET request.
 
 You can also assemble `POST` requests by calling the `post()` method. Here there are parameters for the content type (most commonly `application/xml`, `application/json`, `application/x-form-urlencoded`, `text/plain`. `application/octet-stream`).  See [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types/Common_types) for more info on content types.
 
-For REST handlers that return JSON, you may wish to use Gson() and the `fromJson` function to parse the JSON and turn the results directly into an instance of a Java class.  See [SampleServerTest.java](src/test/java/edu/upenn/cis/nets2120/SampleServerTest.java) and the `testTitle` method for an example of parsing a list of movie tuples.
+For REST handlers that return JSON, you may wish to use Gson() and the `fromJson` function to parse the JSON and turn the results directly into an instance of a Java class.
